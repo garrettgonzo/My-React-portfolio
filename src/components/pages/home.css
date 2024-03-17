@@ -1,0 +1,42 @@
+.picContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 20rem;
+  height: 18rem;
+}
+
+.ProfilePic {
+  width: 20rem;
+  padding: 10px;
+  margin: 10px;
+}
+
+.container {
+  background-image: url("../../assets/sky-6811874.jpg");
+
+  background-size: cover;
+
+  background-position: center;
+
+  background-repeat: no-repeat;
+
+  height: 100vh;
+}
+
+.about {
+  font-family: "Lato";
+  font-size: 100px;
+  padding: 10px 10px 10px 0px;
+  margin: 20px 0 5px 30px;
+}
+
+.aboutSub {
+  font-family: "Lato", "Light";
+  font-size: 40px;
+  padding: 10px;
+  margin: 5px 0 5px 0;
+  width: 55%;
+}
