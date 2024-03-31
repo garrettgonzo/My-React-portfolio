@@ -10,7 +10,7 @@ const Navbar = () => {
             <NavLink
               to="/"
               style={({ isActive }) => ({
-                color: isActive ? "red" : "white",
+                color: isActive ? "cyan" : "white",
               })}
             >
               {/* <img src="" alt="" className="desktopMenuBtn" /> */}
@@ -21,7 +21,7 @@ const Navbar = () => {
             <NavLink
               to="/projects"
               style={({ isActive }) => ({
-                color: isActive ? "red" : "white",
+                color: isActive ? "cyan" : "white",
               })}
             >
               {/* <img src="" alt="" className="desktopMenuImg" /> */}
@@ -32,7 +32,7 @@ const Navbar = () => {
             <NavLink
               to="/contact"
               style={({ isActive }) => ({
-                color: isActive ? "red" : "white",
+                color: isActive ? "cyan" : "white",
               })}
             >
               {/* <img src="" alt="" className="desktopMenuImg" /> */}
@@ -49,7 +49,7 @@ const Navbar = () => {
               to="/public/Garrett_Gonzales_Resume_2023.pdf"
               target="_blank"
               style={({ isActive }) => ({
-                color: isActive ? "red" : "white",
+                color: isActive ? "cyan" : "white",
               })}
             >
               {/* <img src="" alt="" className="desktopMenuImg" /> */}

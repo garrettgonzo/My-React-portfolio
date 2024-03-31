@@ -11,7 +11,7 @@
 .ProfilePic {
   width: 20rem;
   padding: 10px;
-  margin: 10px;
+  margin: 5px 5px 5px 300px;
 }
 
 .container {
@@ -30,13 +30,34 @@
   font-family: "Lato";
   font-size: 100px;
   padding: 10px 10px 10px 0px;
-  margin: 20px 0 5px 30px;
+  margin: 5px 5px 5px 300px;
 }
 
 .aboutSub {
-  font-family: "Lato", "Light";
-  font-size: 40px;
+  font-family: "Lato", sans-serif;
+  font-size: 50px;
+  font-weight: 300;
+  font-style: normal;
   padding: 10px;
-  margin: 5px 0 5px 0;
+  margin: 5px 5px 5px 300px;
   width: 55%;
+}
+
+.aboutSubTwo {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 50px;
+  padding: 10px;
+  margin: 150px 300px 5px 5px;
+  /* width: 55%; */
+  text-align: right;
+}
+
+.icons {
+  width: 100rem;
+  margin-top: 50px;
+  margin-left: 20%;
+  display: flex;
+  justify-content: center;
 }

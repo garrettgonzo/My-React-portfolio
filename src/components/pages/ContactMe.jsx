@@ -1,8 +1,9 @@
 import Navbar from "../navBar/navbar";
+import "./ContactMe.css";
 
 const ContactMe = () => {
   return (
-    <div>
+    <div className="container">
       <Navbar />
       <h1>Contactmee!!!</h1>
     </div>

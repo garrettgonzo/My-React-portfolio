@@ -1,12 +1,32 @@
+import ProjectItem from "../../components/ProjectItem";
+import { ProjectList } from "../helpers/ProjectList";
 import Navbar from "../navBar/navbar";
 
-const Projects = () => {
+import "./projects.css";
+
+function Projects() {
+  console.log(ProjectList);
   return (
-    <div>
+    <div className="container">
       <Navbar />
-      <h1>Projects!!!</h1>
+      <div className="projects">
+        <h1 className="projectsTitle"> My Portfolio</h1>
+        <div className="projectList">
+          {ProjectList.map((project, idx) => {
+            console.log(project);
+            return (
+              <ProjectItem
+                key={idx}
+                id={idx}
+                name={project.name}
+                image={project.image}
+              />
+            );
+          })}
+        </div>
+      </div>
     </div>
   );
-};
+}
 
 export default Projects;

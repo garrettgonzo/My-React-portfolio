@@ -1,0 +1,10 @@
+.container {
+  background-image: url("../../assets/sky-6811874.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
