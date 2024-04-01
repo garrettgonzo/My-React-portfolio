@@ -51,6 +51,7 @@
   margin: 40px;
   box-shadow: 0px 3px 15px rgb(255, 255, 255);
   text-align: center;
+  background-color: rgb(48, 48, 48);
 }
 .projectItem:hover {
   box-shadow: 0px 3px 15px rgb(255, 255, 255);
@@ -69,6 +70,12 @@
 }
 
 .projectItem h1 {
+  margin: 1 1 1 1;
+  font-family: "Lato";
+  font-size: 30px;
+}
+
+.projectItem h2 {
   margin: 1 1 1 1;
   font-size: 25px;
   font-family: "Lato", sans-serif;

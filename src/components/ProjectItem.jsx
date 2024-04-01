@@ -1,4 +1,4 @@
-function ProjectItem({ image, name, id }) {
+function ProjectItem({ image, name, id, skills }) {
   const handleRedirect = (id) => {
     if (id === 0) {
       window.location.href =
@@ -61,6 +61,7 @@ function ProjectItem({ image, name, id }) {
     <div className="projectItem" onClick={() => handleRedirect(id)}>
       <div style={{ backgroundImage: `url(${image})` }} className="bgImage" />
       <h1> {name} </h1>
+      <h2> {skills} </h2>
     </div>
   );
 }

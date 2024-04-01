@@ -14,32 +14,32 @@ export const ProjectList = [
   {
     name: "Recipe API Finder",
     image: proj1,
-    skills: "JavaScript,HTML,CSS",
+    skills: "JavaScript,HTML,CSS,RecipeAPI",
   },
   {
     name: "Cancelling Website",
     image: proj2,
-    skills: "React,Node.js,MongoDB",
+    skills: "JavaScript,HTML,CSS,Node.js,MySQL,Express.js",
   },
   {
     name: "Birbtopia Game Website",
     image: proj3,
-    skills: "React,Node.js,MongoDB,SpotifyAPI",
+    skills: "React,Node.js,MongoDB,Express.js,GraphQL,CSS",
   },
   {
     name: "Horiseon Website",
     image: proj4,
-    skills: "React,Node.js,MySQL,GraphQL",
+    skills: "HTML,CSS",
   },
   {
     name: "Old Portfolio Website",
     image: proj5,
-    skills: "JavaScript,HTML,CSS",
+    skills: "HTML,CSS",
   },
   {
     name: "Password Generator App",
     image: proj6,
-    skills: "React Native,JavaScript,HTML,CSS",
+    skills: "JavaScript,HTML,CSS",
   },
   {
     name: "Coding Quiz App",
@@ -49,41 +49,41 @@ export const ProjectList = [
   {
     name: "Work Day Schedular App",
     image: proj8,
-    skills: "React,Node.js,MongoDB",
+    skills: "JavaScript,HTML,CSS,jQuery",
   },
   {
     name: "Weather App",
     image: proj9,
-    skills: "React,Node.js,MongoDB,SpotifyAPI",
+    skills: "JavaScript,HTML,CSS,jQuery,WeatherAPI",
   },
   {
     name: "README File Generator (Backend Walkthrough Video)",
     image: proj10,
-    skills: "React,Node.js,MySQL,GraphQL",
+    skills: "Node.js,JavaScript,HTML",
   },
   {
     name: "SVG Logo Maker (Backend Walkthrough Video)",
     image: proj10,
-    skills: "JavaScript,HTML,CSS",
+    skills: "Node.js,JavaScript,HTML",
   },
   {
     name: "Employee App (Backend Walkthrough Video)",
     image: proj10,
-    skills: "React Native,JavaScript,HTML,CSS",
+    skills: "Node.js,JavaScript,HTML,MySQL",
   },
   {
     name: "E Commerce App (Backend Walkthrough Video)",
     image: proj10,
-    skills: "JavaScript,HTML,CSS",
+    skills: "Node.js,JavaScript,HTML,MySQL",
   },
   {
     name: "Social Media App (Backend Walkthrough Video)",
     image: proj10,
-    skills: "React,Node.js,MongoDB",
+    skills: "Node.js,JavaScript,HTML,MySQL,Express.js,Mongoose",
   },
   {
     name: "Text Editor App",
     image: proj11,
-    skills: "React,Node.js,MongoDB,SpotifyAPI",
+    skills: "JavaScript,HTML,CSS,PWA",
   },
 ];

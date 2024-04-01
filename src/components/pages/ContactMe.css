@@ -8,3 +8,60 @@
   padding-bottom: 0;
   margin-bottom: 0;
 }
+
+.contactMe {
+  padding: 10px 10px 10px 10px;
+  margin: 5px 5px 5px 5px;
+  font-family: "Lato";
+  font-size: 100px;
+  padding: 10px 10px 10px 10px;
+  margin: 5px 5px 5px 5x;
+}
+
+.formCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.nameBox {
+  background-color: aliceblue;
+  font-size: x-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px;
+  margin: 10px;
+}
+
+.emailBox {
+  background-color: aliceblue;
+  font-size: x-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px;
+  margin: 10px;
+}
+
+.textBox {
+  background-color: aliceblue;
+  font-size: x-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px;
+  margin: 10px;
+}
+
+.subjectBox {
+  background-color: aliceblue;
+  font-size: x-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px;
+  margin: 10px;
+}
+
+.btn {
+  background-color: rgb(0, 238, 255);
+  font-size: x-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px;
+  margin: 10px;
+  margin-bottom: 800px;
+}
