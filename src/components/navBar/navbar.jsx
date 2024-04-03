@@ -46,7 +46,7 @@ const Navbar = () => {
             }}
           >
             <NavLink
-              to="/public/Garrett_Gonzales_Resume_2023.pdf"
+              to="/Garrett_Gonzales_Resume_2023.pdf"
               target="_blank"
               style={({ isActive }) => ({
                 color: isActive ? "cyan" : "white",
